@@ -56,19 +56,19 @@ public class cycleVideoPlayer : MonoBehaviour
             // if video player has reached end of video
             if(videoPlayer.time >= curClipLength || videoPreparing == true)
             {
-                Debug.Log("Has reached end of video");
+                // Debug.Log("Has reached end of video");
                 // prepare fist video
                 // If video is not prepared, prepare a video
                 if(videoPreparing == false)
                 {
-                    Debug.Log("No video prepared. loading and preparing new video");
+                    // Debug.Log("No video prepared. loading and preparing new video");
                     loadNextVideo();
                 }
                 
                 // If a video is prepared, play video
                 if(videoPlayer.isPrepared)
                 {
-                    Debug.Log("Video has been prepared, playing now");
+                    // Debug.Log("Video has been prepared, playing now");
                     videoPlayer.Play();
                     videoPreparing = false;
                 }

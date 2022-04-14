@@ -27,7 +27,7 @@ public class myHVRArrowDamage : HurricaneVR.Framework.Components.HVRDamageProvid
         dealDamage = arrow.Flying;
         // Debug.Log("Arrow flying: " + arrow.Flying);
         velocity = rb.velocity;
-        Debug.Log("Cur Velocity: " + velocity);
+        // Debug.Log("Cur Velocity: " + velocity);
         // Arrow flying forward, it's the -x axis!
 
 

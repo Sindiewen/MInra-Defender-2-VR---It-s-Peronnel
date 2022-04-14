@@ -39,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45526857263566069}
-  m_Mesh: {fileID: 1564094467453292041, guid: 81bceca1f13d7e74c97cfdd5153489f5, type: 3}
+  m_Mesh: {fileID: 4300000, guid: e2711c43d1dd73e498dde7cebd35fa73, type: 3}
 --- !u!23 &5543276020077152462
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
   Force: 10
   TriggerPullThreshold: 0.7
   TriggerResetThreshold: 0.6
-  Cooldown: 0.06666667
+  Cooldown: 0.105
   HitLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -493,7 +493,7 @@ MonoBehaviour:
   Force: 10
   TriggerPullThreshold: 0.7
   TriggerResetThreshold: 0.6
-  Cooldown: 0.06666667
+  Cooldown: 0.105
   HitLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1648,7 +1648,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8956691658083664682}
-  m_Mesh: {fileID: -9137408631111142309, guid: 81bceca1f13d7e74c97cfdd5153489f5, type: 3}
+  m_Mesh: {fileID: 4300002, guid: e2711c43d1dd73e498dde7cebd35fa73, type: 3}
 --- !u!23 &3450872042962015975
 MeshRenderer:
   m_ObjectHideFlags: 0
